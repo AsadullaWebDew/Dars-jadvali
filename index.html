@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="card ">
+                    <div class="card-header ">
+                        <h1 class="text-center">Dars jadvali</h1>
+                    </div>
+                    <div class="card-body ">
+                        <input class="mt-3 form-control" type="text" placeholder="Enter your name" id="name">
+                        <select class="form-control mt-3" id="guruh">
+                            <option value="">Bo'linib o'tadigan darslardagi guruhin | yoki ||</option>
+                            <option value="one">|</option>
+                            <option value="two">||</option>
+                        </select>
+                        <select class="form-control mt-3" id="jadval">
+                            <option value="0">Hafta kuni keriting !</option>
+                            <option value="Dushanba">Dushanba</option>
+                            <option value="Seshanba">Seshanba</option>
+                            <option value="Chorshanba">Chorshanba</option>
+                            <option value="Payshanba">Payshanba</option>
+                            <option value="Juma">Juma</option>
+                            <option value="Shanba">Shanba</option>
+                            <option value="Yakshanba">Yakshanba</option>
+                        </select>
+                        <!-- sele -->
+                    </div>
+                    <div class="card-footer">
+                        <buttom class="btn btn-info d-block ml-auto" onclick="allinf()">Search</buttom>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-3" id="result">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+
+    
+</body>
+</html>

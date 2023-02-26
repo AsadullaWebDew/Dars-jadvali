@@ -1,0 +1,29 @@
+
+
+.cd-top{
+    width: 450px;
+    height: 250px;
+    background-color: aqua;
+}
+
+.body-mk{
+    width: 445px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mk-Center{
+    width: 428px;
+    height: 333px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+.texts{
+    font-family: sans-serif;
+    color: goldenrod;
+}
